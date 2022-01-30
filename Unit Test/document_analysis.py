@@ -83,7 +83,7 @@ if __name__ == "__main__":
     # Open the file in read mode
     # pdfFileObj = open('/Users/dc/Desktop/sample2.pdf', 'rb')
     # text = pdf_convert_txt(pdfFileObj)
-    text = open("/Users/dc/Desktop/sample.txt", "r")
+    text = open("sample.txt", "r")
     #print(text)
     dic = word_analysis(text)
     create_histogram(dic)
