@@ -52,9 +52,8 @@ def word_analysis(text):
                     d[word] = 1
 
     #Test to print the contents of dictionary
-    for key in list(d.keys()):
-        print(key, ":", d[key])
-    
+    #for key in list(d.keys()):
+     #   print(key, ":", d[key])
     return d
 
 def create_histogram(d):
